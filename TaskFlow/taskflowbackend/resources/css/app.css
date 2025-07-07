@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.clamp-md {
+    font-size: clamp(1rem, 1.25rem, 1.5625rem);
+}
+
+.clamp-xxl {
+    font-size: clamp(1rem, 2rem, 2.188rem);
+}
