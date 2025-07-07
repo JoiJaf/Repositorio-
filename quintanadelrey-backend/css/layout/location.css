@@ -1,0 +1,58 @@
+
+
+.madrid-location{
+    background: url(../../img/estatuas-madrid-pal\ 1.png);
+    background-repeat: repeat;
+    background-size: 60pc;
+
+}
+
+.ctn-location{
+    border-radius: 0%;
+  
+}
+
+.location-image{
+    width: 100%;
+    max-width: 100%;
+    height: 40rem;
+}
+
+.location-mask{
+ 
+    
+    background-color: rgb(0 0 0 / 0.64);
+    width: 100%;
+    height: 100%;
+
+}
+
+.location-subtitles{
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-xl);
+    font-weight: bold;
+}
+
+.location-text{
+
+    text-align: center;
+}
+
+.underline{
+    width: 30rem;
+    height: 0.25rem;
+    background-color: var(--primary_color);
+    border-style: none;
+}
+
+.location-paragraph{
+    font-family: var(--font_marcellus);
+    font-size: var(--font-size-nm);
+    margin: 4rem 9rem 5rem 9rem ;
+    line-height: 2;
+    text-align: center;
+}
+
+.location-text-container{
+    margin-top: 6rem; 
+}

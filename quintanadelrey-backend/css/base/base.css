@@ -1,0 +1,25 @@
+
+html{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+
+
+

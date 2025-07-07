@@ -1,0 +1,47 @@
+.filters{
+    border-style: solid;
+    border-radius: 2rem;
+    margin: 3rem 10rem;
+    padding: 2rem 2rem 0 4rem;
+    
+}
+
+.filters-align{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    padding-left: 3.2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.filters-ctn{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+    
+}
+
+.filters-img{
+    width: 6rem;
+    height: 6rem;
+
+}
+
+.filter-title{
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-md);
+}
+
+.filter-text{
+    font-family: var(--font_marcellus);
+    font-size: var(--font-size-nm);
+
+}
+
+.message{
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-sm);
+    text-align: center;
+}

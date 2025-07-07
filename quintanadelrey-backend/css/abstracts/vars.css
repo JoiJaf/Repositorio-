@@ -1,0 +1,23 @@
+:root {
+
+    --primary_color: hsla(355, 78%, 38%, 1);
+    --secondary_color: hsla(40, 100%, 67%, 1);
+    --footer_color: hsla(0, 0%, 8%, 1);
+    --white: hsla(0, 0%, 100%, 1);
+    --black: hsla(0, 0%, 0%, 1);
+    --gray: rgb(219, 219, 219);
+
+    --font_titles: 'Cabin', sans-serif;
+    --font_roboto: 'Roboto', sans-serif;
+    --font_marcellus: 'Marcellus', serif;
+
+    --font-size-sm: 1rem;
+    --font-size-nm: 1.10rem;
+    --font-size-md: 1.5rem;
+    --font-size-lg: 1.625rem;
+    --font-size-xl: 1.75rem;
+    --font-size-xxl: 3.5rem;
+
+    
+
+}

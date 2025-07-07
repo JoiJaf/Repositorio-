@@ -1,0 +1,399 @@
+/* add product php */
+
+.add-product-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2rem 2rem;
+}
+
+.submit-btn{
+    background: var(--primary_color);
+    display: flex;
+    color: white;
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-md);
+    border-radius: 2rem;
+    height: 4rem;
+    width: 12rem;
+    align-items: center;
+    justify-content: center;
+    font-weight:bolder;
+    border: none;
+}
+
+.input-text-admin{
+    font-family: var(--font_titles);
+    font-size: var(--font-size-nm);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.add-btn-admin{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+    
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    opacity: 0;
+  }
+
+  .btn {
+    border: 2px solid var(--primary_color);
+    color: var(--primary_color);
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-md);
+    font-weight: bold;
+  }
+
+  .readfile{
+    max-width: 18rem;
+    height: 25rem;
+    position: absolute;
+    right: 37rem;
+    top: 38.5rem;
+    
+  }
+
+.upload-btn{
+    background: var(--secondary_color);
+    display: flex;
+    color: black;
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-md);
+    border-radius: 2rem;
+    height: 4rem;
+    width: 12rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.a-admin{
+    color: var(--primary_color);
+    text-decoration: underline;
+    margin-left: 0.5rem;
+}
+
+.login-btn{
+    background: var(--secondary_color);
+    width: 23.563rem;
+    height: 3.5rem;
+    border: none;
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-md);
+    border-radius: 2rem;
+    font-weight: 1rem;
+}
+
+.div-login-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-link-search{
+    display: flex;
+}
+
+
+.search-form{
+    margin: 2rem 0rem;
+}
+
+.div-image{
+    width: 20rem;
+    height: auto;
+}
+
+.div-header-admin{
+    background-color: var(--primary_color);
+    height: 10rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: var(--font_titles);
+    font-size: var(--font-size-xxl);
+}
+
+.div-return-btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 2rem;
+}
+
+.return-btn{
+    background: var(--secondary_color);
+    display: flex;
+    color: black;
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-md);
+    border-radius: 2rem;
+    height: 4rem;
+    width: 12rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+.icon-admin{
+    width: 2rem;
+    height: auto;
+}
+
+.div-list-dish-adim{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+    background-color: var(--secondary_color);
+    border-radius: 2rem;
+    height: 3rem;
+}
+
+.div-table-admin{
+    justify-content: center;
+    display: flex;
+}
+
+.table-admin-recipe{
+    justify-content: space-between;
+}
+
+.table-title-admin{
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-md);
+}
+
+.div-colum-admin{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-posicion{
+    margin: 0;
+    justify-content: center;
+}
+
+.width-text{
+    width: 30ch;
+    overflow: hidden;
+}
+
+.fomr-admin{
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+    margin: 0 rem 5rem;
+}
+
+.div-image-add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-featured-admin{
+    display: flex;
+    gap:2rem;
+}
+
+.form-input-admin{
+    margin: 10px 0;
+    border:  none;
+    background-color: var(--secondary_color);
+    border-radius: 0.5rem;
+    color: black;
+    width: 100%;
+    height: 4rem;
+    font-family: var(--font_roboto);
+}
+
+.toggle-button-cover {
+    display: table-cell;
+    position: relative;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  
+  .button-cover {
+    height: 100px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px -8px #c5d6d6;
+    border-radius: 4px;
+  }
+  
+  .button-cover:before {
+    counter-increment: button-counter;
+    content: counter(button-counter);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #d7e3e3;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px;
+  }
+  
+  .button-cover,
+  .knobs,
+  .layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .button {
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+  }
+  
+  .checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+    
+  }
+  
+  .knobs {
+    z-index: 2;
+  }
+  
+  .layer {
+    width: 100%;
+    background-color: #b2a2a2;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+  
+  .button.r,
+  .button.r .layer {
+    border-radius: 100px;
+  }
+  
+  #button-3 .knobs:before {
+    content: "NO";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: var(--primary_color);
+    border-radius: 50%;
+    transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
+  }
+  
+  #button-3 .checkbox:active + .knobs:before {
+    width: 46px;
+    border-radius: 100px;
+  }
+  
+  #button-3 .checkbox:checked:active + .knobs:before {
+    margin-left: -26px;
+  }
+  
+  #button-3 .checkbox:checked + .knobs:before {
+    content: "YES";
+    left: 42px;
+    background-color: var(--secondary_color);
+    color: black;
+  }
+  
+  #button-3 .checkbox:checked ~ .layer {
+    background-color: #b2a2a2;
+  }
+
+  
+
+  .form-edit{
+    display: grid;
+    margin: 2rem;
+    width: 50%;
+  }
+
+  .readfile-edit{
+    position: absolute;
+    left: 22rem;
+    top: 65rem;
+    margin-bottom: 2rem;
+  }
+
+  .prom{
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  /* admin delete */
+
+  .delete-form_ctn{
+    padding: 4rem;
+    text-align: center;
+  }
+
+  .title-delete{
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-xxl);
+    padding-bottom: 1rem;
+  }
+
+  .del-text{
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-sm);
+
+  }
+
+  .delete-btn{
+    padding-top: 2rem;
+  }
+  .edit-delete-cart-btn{
+    color: white;
+    font-family: var(--font_roboto);
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 4rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .edit-delete-cart-div{
+    background:black;
+    border-radius: 2rem;
+  }
+
+

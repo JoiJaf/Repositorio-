@@ -1,0 +1,53 @@
+
+.footer{
+    background: var(--footer_color);
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+.footer-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 9rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10rem;
+    color: var(--white);
+    
+}
+
+.footer-title{
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    padding-left: 1.6rem;
+}
+
+.footer-links{
+    display: grid;
+    font-family: var(--font_marcellus);
+    font-size: var(--font-size-sm);
+    font-weight: 400;
+    row-gap: 1rem;
+}
+
+.footer-links > a:hover{
+    color: rgb(137, 137, 137);
+}
+
+.footer-network{
+    display: flex;
+    column-gap: 1.5rem;
+    padding-top: 1rem;
+}
+
+.footer-network>a:hover{
+    transition: 400ms;
+    transform: scale(.950);
+}
+
+.download-app a img:hover{
+    transform: scale(.950);
+    transition: 400ms;
+}

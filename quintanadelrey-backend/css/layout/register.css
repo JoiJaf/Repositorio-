@@ -1,0 +1,118 @@
+.register-ctn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto 2rem auto;
+    gap: 2rem;
+}
+
+.login-ctn {
+    background: url(../../img/bg_register.png) rgb(165, 165, 165);
+    background-size: cover;
+    border-radius: 3rem;
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.registration {
+    background: url(../../img/bg_register.png) rgb(165, 165, 165);
+    background-size: cover;
+    border-radius: 3rem;
+    margin-right: 8rem;
+    display: grid;
+}
+
+.login-title {
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: var(--font-size-xl);
+    font-family: var(--font_roboto);
+}
+
+.login-shield {
+    max-width: 22%;
+    width: 100%;
+    margin: 1rem auto 0 auto;
+    z-index: 1;
+
+}
+
+.login-form-ctn {
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem 2rem;
+    padding: 7rem 2rem 2rem;
+    border-radius: 2rem;
+
+    position: relative;
+    top: -5rem;
+
+}
+
+/* part login */
+
+.form-ctn{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: .5rem auto 0;
+    row-gap: 1rem;
+}
+
+.form-inputs{
+    display: flex;
+    column-gap: .5rem;
+    padding: .8rem;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 14px -4px rgba(0,0,0,0.55);
+}
+
+.fr-input_log{
+    border: none;
+    width: 100%;
+}
+
+
+/* part login */
+
+.form-tools{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.link-pwd{
+    font-size: var(--font-size-sm);
+    font-family: var(--font_roboto);
+    color: rgb(125, 125, 125);
+}
+
+
+.login-btns{
+   display: grid;
+   row-gap: .2rem;
+}
+
+
+
+/* registered */
+
+.register-bar{
+    color: var(--primary_color);
+    margin-top: 0;
+}
+
+.register-align{
+    display: flex;
+    column-gap: 1rem;
+}
+
+.register-text{
+    font-size: var(--font-size-sm) ;
+    font-family: var(--font_roboto);
+}

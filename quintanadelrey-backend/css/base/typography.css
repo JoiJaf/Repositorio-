@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: 'cabin';
+    src: url(/fonts/Cabin-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Marcellus';
+    src: url(/fonts/Marcellus-Regular.ttf);
+}
